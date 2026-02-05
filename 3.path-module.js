@@ -24,4 +24,4 @@ const normalizeRoute = path.normalize('/commonJs///index.cjs//')
 /* Ejemplo real en express */
 const pathExpress = path.join(__dirname, 'newFile.js')
 
-console.log('Voy a obtener el nombre del archivo sin la extensión: ', getFileName)
+console.log('Este es el identificador de mi proceso numero 3: ', process.pid)
